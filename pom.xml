@@ -13,6 +13,12 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <licenses>
+    <license>
+      <name>apache</name>
+    </license>
+  </licenses>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -101,22 +107,42 @@
                   </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <configuration>
-                    <archive>
-                        <addMavenDescriptor>false</addMavenDescriptor>
-                    </archive>
-                </configuration>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
                         <goals>
                             <goal>test-jar</goal>
                         </goals>
-                    </execution>
-                </executions>
+                  <configuration>
+                     <!--  <archive>
+                          <addMavenDescriptor>false</addMavenDescriptor>
+                      </archive> -->
+                      <deployProperties>
+                        <gradle>awesome</gradle>
+                        <review.team>qa</review.team>
+                      </deployProperties>
+                      <artifactory>
+                          <includeEnvVars>true</includeEnvVars>
+                          <timeoutSec>60</timeoutSec>
+                          <propertiesFile>publish.properties</propertiesFile>
+                      </artifactory>
+                      <publisher>
+                          <contextUrl>http://localhost:8081/artifactory</contextUrl>
+                          <username>admin</username>
+                          <password>password</password>
+                          <excludePatterns>*-tests.jar</excludePatterns>
+                          <repoKey>maven-release-local</repoKey>
+                          <snapshotRepoKey>maven-snapshot-local</snapshotRepoKey>
+                      </publisher>
+
+                  </configuration>
+                </execution>
+              </executions>
+  
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -165,7 +191,7 @@
               </executions>
  -->
             </plugin>
-            <plugin>
+            <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <executions>
@@ -194,7 +220,7 @@
                         </configuration>
                   </execution>
                 </executions>
-              </plugin>
+              </plugin> -->
             </plugins>
   </build>
   <distributionManagement>
