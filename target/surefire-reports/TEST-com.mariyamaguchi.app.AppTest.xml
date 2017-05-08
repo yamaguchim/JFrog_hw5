@@ -1,67 +1,131 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite tests="0" failures="0" name="com.mariyamaguchi.app.AppTest" time="0" errors="0" skipped="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="maven-test3"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/root/.jenkins"/>
+    <property name="PATH" value="/var/root/.jenkins/tools/hudson.model.JDK/Java8/bin:/usr/local/apache-maven/apache-maven-3.5.0//bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="c68a310fe0512c9f"/>
+    <property name="POM_ARTIFACTID" value="my-maven-proj"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre/lib/resources.jar:/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre/lib/rt.jar:/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre/lib/sunrsasign.jar:/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre/lib/jsse.jar:/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre/lib/jce.jar:/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre/lib/charsets.jar:/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre/lib/jfr.jar:/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="my-maven-proj"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="root"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="extractor.used" value="true"/>
+    <property name="maven.repo.local" value="/var/root/.jenkins/workspace/maven-test3/.repository"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="maven-test3"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/maven-test3/9/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#9"/>
+    <property name="sun.boot.library.path" value="/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre/lib"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="4475464778886b44ef9f723afdce36dfcf89efe5"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="USERNAME" value="root"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="RELEASE_SCM_BRANCH" value="REL-BRANCH-my-maven-proj-1.0"/>
+    <property name="java.endorsed.dirs" value="/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="9"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/sh"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="SUDO_GID" value="20"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.12.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/maven-test3/9/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
     <property name="java.vm.version" value="25.131-b11"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="4475464778886b44ef9f723afdce36dfcf89efe5"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/maven-test3/display/redirect"/>
+    <property name="RT_RELEASE_STAGING_NEXT_VERSION" value="1.1-SNAPSHOT"/>
+    <property name="SUDO_COMMAND" value="/usr/bin/java -jar jenkins.war"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/var/root/.jenkins/tools/hudson.model.JDK/Java8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="root"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/mariyamaguchi"/>
+    <property name="RT_RELEASE_STAGING_VERSION" value="1.0"/>
+    <property name="POM_GROUPID" value="com.mariyamaguchi.app"/>
+    <property name="user.home" value="/var/root"/>
+    <property name="BUILD_TAG" value="jenkins-maven-test3-9"/>
+    <property name="JENKINS_SERVER_COOKIE" value="c68a310fe0512c9f"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/mariyamaguchi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/mariyamaguchi/desktop/jfrog_hw4/my-maven-proj"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/private/var/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/M3"/>
+    <property name="java.class.path" value="/var/root/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven33-agent-1.8.1.jar:/var/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/M3/boot/plexus-classworlds-2.5.2.jar:/var/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/M3/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main /var/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/M3 /private/var/root/.jenkins/war/WEB-INF/lib/remoting-3.7.jar /var/root/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven33-interceptor-1.8.1.jar /var/root/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.8.1.jar 51858"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/mariyamaguchi/Desktop/jfrog_hw4/my-maven-proj"/>
-    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="PATH+JDK" value="/var/root/.jenkins/tools/hudson.model.JDK/Java8/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/var/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/M3"/>
+    <property name="MAIL" value="/var/mail/root"/>
+    <property name="java.io.tmpdir" value="/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/"/>
+    <property name="HUDSON_HOME" value="/var/root/.jenkins"/>
+    <property name="PATH+MAVEN" value="/var/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/M3/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/maven-test3/9/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="buildInfoConfig.propertiesFile" value="/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/buildInfo1629651680324864829.properties"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.PZba3RtB62/Listeners"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/n5/qrnm2sg503qgz2n2rgcnf4_h0000gn/T/"/>
+    <property name="com.apple.java.jvmTask" value="CommandLine"/>
+    <property name="java.ext.dirs" value="/Users/mariyamaguchi/Library/Java/Extensions:/private/var/root/.jenkins/tools/hudson.model.JDK/Java8/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x0:0:0"/>
+    <property name="user.dir" value="/private/var/root/.jenkins/workspace/maven-test3"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/maven-test3/"/>
+    <property name="SUDO_USER" value="mariyamaguchi"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.5.0/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/mariyamaguchi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/usr/local/apache-maven/apache-maven-3.5.0/conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.12.1"/>
-    <property name="library.jansi.path" value="/usr/local/apache-maven/apache-maven-3.5.0/lib/jansi-native/osx64"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/mariyamaguchi"/>
-    <property name="user.timezone" value="America/Los_Angeles"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
+    <property name="JAVA_ARCH" value="x86_64"/>
+    <property name="MAVEN_HOME" value="/var/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/M3"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="9"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="RT_RELEASE_STAGING_SCM_BRANCH" value="REL-BRANCH-my-maven-proj-1.0"/>
+    <property name="GIT_COMMIT" value="4475464778886b44ef9f723afdce36dfcf89efe5"/>
+    <property name="RELEASE_SCM_TAG" value="my-maven-proj-1.0"/>
+    <property name="SUDO_UID" value="501"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="mariyamaguchi"/>
-    <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.5.0/boot/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_131"/>
-    <property name="java.ext.dirs" value="/Users/mariyamaguchi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.5.0"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="sun.cpu.isalist" value=""/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/var/root/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven33-interceptor-1.8.1.jar"/>
+    <property name="JAVA_MAIN_CLASS_63977" value="Main"/>
+    <property name="WORKSPACE" value="/var/root/.jenkins/workspace/maven-test3"/>
+    <property name="maven3.interceptor.common" value="/var/root/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.8.1.jar"/>
+    <property name="RT_RELEASE_STAGING_SCM_TAG" value="my-maven-proj-1.0"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="root"/>
+    <property name="GIT_URL" value="https://github.com/yamaguchim/JFrog_hw4.git"/>
   </properties>
 </testsuite>
