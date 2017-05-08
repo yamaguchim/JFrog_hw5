@@ -122,7 +122,7 @@
               <!-- <version>2.6.1</version> -->
                   <!-- <version>3.3.9</version> -->
               <inherited>false</inherited>
-              <executions>
+             <!--  <executions>
                 <execution>
                     <id>my-maven-proj</id>
                     <goals>
@@ -151,7 +151,7 @@
                     </configuration>
                 </execution>
               </executions>
-
+ -->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -161,7 +161,7 @@
                         <goals>
                             <goal>test-jar</goal>
                         </goals>
-                        <!-- <configuration>
+                        <configuration>
                             <deployProperties>
                             <gradle>awesome</gradle>
                             <review.team>qa</review.team>
@@ -178,8 +178,8 @@
                                 <excludePatterns>*-tests.jar</excludePatterns>
                                 <repoKey>maven-release-local</repoKey>
                                 <snapshotRepoKey>maven-snapshot-local</snapshotRepoKey>
-                            </publisher> -->
-                        <!-- </configuration> -->
+                            </publisher>
+                        </configuration>
                   </execution>
                 </executions>
               </plugin>
