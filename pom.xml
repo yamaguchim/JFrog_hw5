@@ -122,6 +122,36 @@
               <version>2.6.1</version>
                   <!-- <version>3.3.9</version> -->
               <inherited>false</inherited>
+              <executions>
+                <execution>
+                    <id>my-maven-proj</id>
+                    <goals>
+                        <goal>publish</goal>
+                    </goals>
+                    <configuration>
+                        <deployProperties>
+                            <gradle>awesome</gradle>
+                            <review.team>qa</review.team>
+                        </deployProperties>
+                            <artifactory>
+                                <includeEnvVars>true</includeEnvVars>
+                                <timeoutSec>60</timeoutSec>
+                                <propertiesFile>publish.properties</propertiesFile>
+                            </artifactory>
+                            <publisher>
+                                <contextUrl>http://localhost:8081/artifactory</contextUrl>
+                                <username>admin</username>
+                                <password>password</password>
+                                <excludePatterns>*-tests.jar</excludePatterns>
+                                <repoKey>maven-release-local</repoKey>
+                                <snapshotRepoKey>maven-snapshot-local</snapshotRepoKey>
+                        </publisher>
+
+
+                    </configuration>
+                </execution>
+              </executions>
+
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -129,9 +159,9 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>jar</goal>
+                            <goal>test-jar</goal>
                         </goals>
-                        <configuration>
+                        <!-- <configuration>
                             <deployProperties>
                             <gradle>awesome</gradle>
                             <review.team>qa</review.team>
@@ -148,8 +178,8 @@
                                 <excludePatterns>*-tests.jar</excludePatterns>
                                 <repoKey>maven-release-local</repoKey>
                                 <snapshotRepoKey>maven-snapshot-local</snapshotRepoKey>
-                            </publisher>
-                        </configuration>
+                            </publisher> -->
+                        <!-- </configuration> -->
                   </execution>
                 </executions>
               </plugin>
