@@ -6,7 +6,7 @@
     </groups>
     <test name="Command line suite">
       <class name="com.mariyamaguchi.app.AppTest">
-        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="7" started-at="2017-05-08T18:26:51Z" finished-at="2017-05-08T18:26:51Z">
+        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="13" started-at="2017-05-08T18:33:44Z" finished-at="2017-05-08T18:33:44Z">
         </test-method>
       </class>
     </test>
